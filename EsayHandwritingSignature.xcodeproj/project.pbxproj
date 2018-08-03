@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57B9EBA52113F01B005F8C00 /* SignatureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B9EBA32113F01B005F8C00 /* SignatureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57B9EBA82113F01B005F8C00 /* SignatureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */; };
 		57B9EBA92113F01B005F8C00 /* SignatureFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		57B9EBAE2113F03F005F8C00 /* CarthageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B9EBAE2113F03F005F8C00 /* SignatureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B9EB9B2113EFC2005F8C00 /* SignatureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57B9EBAF2113F04D005F8C00 /* PopSignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8294D171FB3ED4D0011D601 /* PopSignatureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57B9EBB02113F05F005F8C00 /* PopSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D181FB3ED4D0011D601 /* PopSignatureView.m */; };
 		57B9EBB12113F05F005F8C00 /* EasySignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D151FB3EA700011D601 /* EasySignatureView.m */; };
+		57B9EBB62113F618005F8C00 /* EasySignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8294D141FB3EA700011D601 /* EasySignatureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8294CFF1FB3E9300011D601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294CFE1FB3E9300011D601 /* AppDelegate.m */; };
 		F8294D021FB3E9300011D601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D011FB3E9300011D601 /* ViewController.m */; };
 		F8294D051FB3E9300011D601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8294D031FB3E9300011D601 /* Main.storyboard */; };
@@ -49,9 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageHeader.h; sourceTree = "<group>"; };
+		57B9EB9B2113EFC2005F8C00 /* SignatureFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignatureFramework.h; sourceTree = "<group>"; };
 		57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignatureFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57B9EBA32113F01B005F8C00 /* SignatureFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignatureFramework.h; sourceTree = "<group>"; };
 		57B9EBA42113F01B005F8C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8294CFA1FB3E9300011D601 /* EsayHandwritingSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsayHandwritingSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8294CFD1FB3E9300011D601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		57B9EBA22113F01B005F8C00 /* SignatureFramework */ = {
 			isa = PBXGroup;
 			children = (
-				57B9EBA32113F01B005F8C00 /* SignatureFramework.h */,
 				57B9EBA42113F01B005F8C00 /* Info.plist */,
 			);
 			path = SignatureFramework;
@@ -139,7 +137,7 @@
 				F8294D181FB3ED4D0011D601 /* PopSignatureView.m */,
 				F8294D141FB3EA700011D601 /* EasySignatureView.h */,
 				F8294D151FB3EA700011D601 /* EasySignatureView.m */,
-				57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */,
+				57B9EB9B2113EFC2005F8C00 /* SignatureFramework.h */,
 			);
 			path = EasySignature;
 			sourceTree = "<group>";
@@ -151,9 +149,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B9EBA52113F01B005F8C00 /* SignatureFramework.h in Headers */,
+				57B9EBAE2113F03F005F8C00 /* SignatureFramework.h in Headers */,
+				57B9EBB62113F618005F8C00 /* EasySignatureView.h in Headers */,
 				57B9EBAF2113F04D005F8C00 /* PopSignatureView.h in Headers */,
-				57B9EBAE2113F03F005F8C00 /* CarthageHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
