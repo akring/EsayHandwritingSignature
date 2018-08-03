@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57B9EBA52113F01B005F8C00 /* SignatureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B9EBA32113F01B005F8C00 /* SignatureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B9EBA82113F01B005F8C00 /* SignatureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */; };
+		57B9EBA92113F01B005F8C00 /* SignatureFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57B9EBAE2113F03F005F8C00 /* CarthageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B9EBAF2113F04D005F8C00 /* PopSignatureView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8294D171FB3ED4D0011D601 /* PopSignatureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B9EBB02113F05F005F8C00 /* PopSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D181FB3ED4D0011D601 /* PopSignatureView.m */; };
+		57B9EBB12113F05F005F8C00 /* EasySignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D151FB3EA700011D601 /* EasySignatureView.m */; };
 		F8294CFF1FB3E9300011D601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294CFE1FB3E9300011D601 /* AppDelegate.m */; };
 		F8294D021FB3E9300011D601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D011FB3E9300011D601 /* ViewController.m */; };
 		F8294D051FB3E9300011D601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8294D031FB3E9300011D601 /* Main.storyboard */; };
@@ -17,7 +24,35 @@
 		F8294D191FB3ED4E0011D601 /* PopSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D181FB3ED4D0011D601 /* PopSignatureView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		57B9EBA62113F01B005F8C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8294CF21FB3E9300011D601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B9EBA02113F01B005F8C00;
+			remoteInfo = SignatureFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57B9EBAD2113F01B005F8C00 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57B9EBA92113F01B005F8C00 /* SignatureFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageHeader.h; sourceTree = "<group>"; };
+		57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignatureFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B9EBA32113F01B005F8C00 /* SignatureFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignatureFramework.h; sourceTree = "<group>"; };
+		57B9EBA42113F01B005F8C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8294CFA1FB3E9300011D601 /* EsayHandwritingSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsayHandwritingSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8294CFD1FB3E9300011D601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8294CFE1FB3E9300011D601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,20 +70,38 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8294CF71FB3E9300011D601 /* Frameworks */ = {
+		57B9EB9D2113F01B005F8C00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8294CF71FB3E9300011D601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B9EBA82113F01B005F8C00 /* SignatureFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57B9EBA22113F01B005F8C00 /* SignatureFramework */ = {
+			isa = PBXGroup;
+			children = (
+				57B9EBA32113F01B005F8C00 /* SignatureFramework.h */,
+				57B9EBA42113F01B005F8C00 /* Info.plist */,
+			);
+			path = SignatureFramework;
+			sourceTree = "<group>";
+		};
 		F8294CF11FB3E9300011D601 = {
 			isa = PBXGroup;
 			children = (
 				F8294CFC1FB3E9300011D601 /* EsayHandwritingSignature */,
+				57B9EBA22113F01B005F8C00 /* SignatureFramework */,
 				F8294CFB1FB3E9300011D601 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F8294CFA1FB3E9300011D601 /* EsayHandwritingSignature.app */,
+				57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,13 +139,45 @@
 				F8294D181FB3ED4D0011D601 /* PopSignatureView.m */,
 				F8294D141FB3EA700011D601 /* EasySignatureView.h */,
 				F8294D151FB3EA700011D601 /* EasySignatureView.m */,
+				57B9EB9B2113EFC2005F8C00 /* CarthageHeader.h */,
 			);
 			path = EasySignature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		57B9EB9E2113F01B005F8C00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B9EBA52113F01B005F8C00 /* SignatureFramework.h in Headers */,
+				57B9EBAF2113F04D005F8C00 /* PopSignatureView.h in Headers */,
+				57B9EBAE2113F03F005F8C00 /* CarthageHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		57B9EBA02113F01B005F8C00 /* SignatureFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B9EBAA2113F01B005F8C00 /* Build configuration list for PBXNativeTarget "SignatureFramework" */;
+			buildPhases = (
+				57B9EB9C2113F01B005F8C00 /* Sources */,
+				57B9EB9D2113F01B005F8C00 /* Frameworks */,
+				57B9EB9E2113F01B005F8C00 /* Headers */,
+				57B9EB9F2113F01B005F8C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignatureFramework;
+			productName = SignatureFramework;
+			productReference = 57B9EBA12113F01B005F8C00 /* SignatureFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F8294CF91FB3E9300011D601 /* EsayHandwritingSignature */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8294D101FB3E9300011D601 /* Build configuration list for PBXNativeTarget "EsayHandwritingSignature" */;
@@ -99,10 +185,12 @@
 				F8294CF61FB3E9300011D601 /* Sources */,
 				F8294CF71FB3E9300011D601 /* Frameworks */,
 				F8294CF81FB3E9300011D601 /* Resources */,
+				57B9EBAD2113F01B005F8C00 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				57B9EBA72113F01B005F8C00 /* PBXTargetDependency */,
 			);
 			name = EsayHandwritingSignature;
 			productName = EsayHandwritingSignature;
@@ -118,6 +206,10 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = liang;
 				TargetAttributes = {
+					57B9EBA02113F01B005F8C00 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
 					F8294CF91FB3E9300011D601 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -138,11 +230,19 @@
 			projectRoot = "";
 			targets = (
 				F8294CF91FB3E9300011D601 /* EsayHandwritingSignature */,
+				57B9EBA02113F01B005F8C00 /* SignatureFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		57B9EB9F2113F01B005F8C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8294CF81FB3E9300011D601 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +256,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		57B9EB9C2113F01B005F8C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B9EBB02113F05F005F8C00 /* PopSignatureView.m in Sources */,
+				57B9EBB12113F05F005F8C00 /* EasySignatureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8294CF61FB3E9300011D601 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +278,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B9EBA72113F01B005F8C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B9EBA02113F01B005F8C00 /* SignatureFramework */;
+			targetProxy = 57B9EBA62113F01B005F8C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8294D031FB3E9300011D601 /* Main.storyboard */ = {
@@ -190,6 +307,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		57B9EBAB2113F01B005F8C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SignatureFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akring.SignatureFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57B9EBAC2113F01B005F8C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SignatureFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akring.SignatureFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F8294D0E1FB3E9300011D601 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -327,6 +498,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57B9EBAA2113F01B005F8C00 /* Build configuration list for PBXNativeTarget "SignatureFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B9EBAB2113F01B005F8C00 /* Debug */,
+				57B9EBAC2113F01B005F8C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8294CF51FB3E9300011D601 /* Build configuration list for PBXProject "EsayHandwritingSignature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

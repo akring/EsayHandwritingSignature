@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8294CF91FB3E9300011D601"
-               BuildableName = "EsayHandwritingSignature.app"
-               BlueprintName = "EsayHandwritingSignature"
+               BlueprintIdentifier = "57B9EBA02113F01B005F8C00"
+               BuildableName = "SignatureFramework.framework"
+               BlueprintName = "SignatureFramework"
                ReferencedContainer = "container:EsayHandwritingSignature.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8294CF91FB3E9300011D601"
-            BuildableName = "EsayHandwritingSignature.app"
-            BlueprintName = "EsayHandwritingSignature"
-            ReferencedContainer = "container:EsayHandwritingSignature.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8294CF91FB3E9300011D601"
-            BuildableName = "EsayHandwritingSignature.app"
-            BlueprintName = "EsayHandwritingSignature"
+            BlueprintIdentifier = "57B9EBA02113F01B005F8C00"
+            BuildableName = "SignatureFramework.framework"
+            BlueprintName = "SignatureFramework"
             ReferencedContainer = "container:EsayHandwritingSignature.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8294CF91FB3E9300011D601"
-            BuildableName = "EsayHandwritingSignature.app"
-            BlueprintName = "EsayHandwritingSignature"
+            BlueprintIdentifier = "57B9EBA02113F01B005F8C00"
+            BuildableName = "SignatureFramework.framework"
+            BlueprintName = "SignatureFramework"
             ReferencedContainer = "container:EsayHandwritingSignature.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
